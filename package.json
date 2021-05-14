@@ -1,0 +1,18 @@
+{
+  "name": "testfour",
+  "version": "1.0.0",
+  "description": "",
+  "main": "protractor.conf.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "master"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "protractor": "^7.0.0"
+  }
+}

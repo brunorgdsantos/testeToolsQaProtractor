@@ -1,4 +1,4 @@
-describe('Homepage', function() {
+describe('Fill form', function() {
     var firstName = element(by.id('firstName'));
     var lasName = element(by.id('lastName'));
     var email = element(by.id('userEmail'));
@@ -13,7 +13,7 @@ describe('Homepage', function() {
     var stateOne = element(by.xpath(('/html/body/div/div/div/div[2]/div[2]/div[1]/form/div[10]/div[2]/div/div/div[1]/div[1]')));
     var buttonSaveStudent = element(by.className('btn btn-primary'));
     
-    it('Form Test', function(){
+    it('Fill and compare form', function(){
         browser.get('#/api');
 
         firstName.sendKeys('Bruno');
